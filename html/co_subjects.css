@@ -1,0 +1,239 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0px;
+}
+.Heading{
+    color: #660000;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 110px;
+    padding-top: 30px;
+    padding-left: 250px;
+    padding-right: 250px;
+    margin: 0%;
+    border: 0%;
+    background-image: url("img/cafe_white.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+#nav1 {
+  list-style: none;
+  overflow: hidden;
+  margin: 0px;
+  padding-left: 0px;
+} 
+#nav1 li {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 50px;
+    width: 25%;
+    text-align: center;
+    background-color: #333;
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    margin-right: 0px;
+    padding-top: 5px;
+    padding-left: 0px;
+}
+#nav1 li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 0px;
+    cursor: pointer;
+}
+#Subheading1,#Subheading2,#Subheading3,#Subheading4{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 80px;
+    text-align: center;
+}
+.Profile-contents{
+    display: flex;
+    padding-left: 180px;
+    margin: 0 auto;
+    border: 0px;
+    min-width: 80%;
+    max-width: 80%;
+}
+.Profile-icon{
+    padding-right: 40px;
+}
+.p-icon{
+    height: 230px;
+    width: 230px;
+}
+.Profile-text{
+    width: 490px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: 1px solid;
+    border-color: grey;
+    border-radius: 8px;
+}
+p{
+    margin: 20px 0px;
+}
+.input{
+    margin: 0 auto;
+}
+.Skill-contents{
+    margin: 0 300px;
+}
+.Skill-card{
+    text-align: center;
+    margin: 0 300px;
+    border: 1px #aaa;
+
+}
+.Skill-desk{
+    text-align: center;
+    border: 1px solid #aaa;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.Skill-table{
+    margin: 0 auto;
+}
+.Skill-card td,th{
+    width: 50px;
+    height: 50px;
+    padding: 0px 10px;
+    vertical-align: middle;
+}
+.Work-contents{
+    display: flex;
+    margin: 0 auto;
+    border: 0px;
+    min-width: 80%;
+    max-width: 80%;
+}
+.Work-contents {
+	width:			100%;
+	height:			100%;
+	overflow:		hidden;
+	margin:			0 auto;
+	position:		relative;
+}
+.caption {
+	font-size:		130%;
+	text-align: 		center;
+	padding-top:		80px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 100px;
+	color:			#fff;
+}
+.mask {
+	width:			100%;
+	height:			100%;
+	position:		absolute;
+	top:			0;
+	left:			0;
+	opacity:		0;
+	background-color:	rgba(0,0,0,0.4);
+	-webkit-transition:	all 0.2s ease;
+	transition:		all 0.2s ease;
+}
+.Work-contents:hover .mask {
+	opacity:		1;
+}
+form{
+    width: 600px;
+    margin: 0 auto;
+}
+form p{
+    text-align: center;
+    color: #ff7f7f;
+    font-weight: 600;
+}
+table.contact-list{
+    width: 600px;
+    border-collapse: collapse;
+    border: 1px solid #aaa;
+    margin: 10px 0 20px 0;
+}
+table.contact-list th, table.contact-list td{
+    border: 1px solid #aaa;
+    text-align: left;
+    vertical-align: middle;
+    padding: 10px 20px ;
+}
+table.contact-list th{
+    width: 900px;
+}
+table.label{
+    width: 900px;
+}
+input[type="text"],input[type="email"],input[type="nember"]{
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 15px;
+}
+input[type="email"]{
+    width: 300px;
+}
+textarea{
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 360px;
+    margin-right: 20px;
+    font-size: 15px;
+}
+.sub_button{
+    text-align: center;
+}
+.submit_btn{
+    border: 1px solid #bbb0af;
+    border-radius: 5px;
+    padding: 10px 30px;
+    margin: 10px;
+    font-size: 20px;
+    background-color: #ac723b;
+    color: #ebe1bb;
+    cursor: pointer;
+}
+.submit_btn:hover{
+    border: 1px solid #442220;
+    background-color: #ac693c;
+    color: #dac77e;
+}
+#dialog {
+    width: 250px;
+    margin: auto;
+    margin-top: 40vh;
+    padding: 30px 20px;
+    display: none;
+    text-align: center;
+    border: 1px solid #aaa;
+    box-shadow: 2px 2px 4px #888;
+}
+#nav2{
+    list-style: none;
+  overflow: hidden;
+  margin: 0px;
+  padding-left: 0px;
+}
+#nav2 li {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 20px;
+    width: 25%;
+    text-align: center;
+    background-color: #333;
+    float: left;
+    height: 100px;
+    margin-right: 0px;
+    padding-top: 5px;
+    padding-left: 0px;
+}
+#nav2 li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 0px;
+    cursor: pointer;
+}
